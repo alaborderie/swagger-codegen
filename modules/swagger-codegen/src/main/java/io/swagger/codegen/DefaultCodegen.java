@@ -928,10 +928,14 @@ public class DefaultCodegen {
         specialCharReplacements.put("$", "Dollar");
         specialCharReplacements.put("^", "Caret");
         specialCharReplacements.put("|", "Pipe");
+        specialCharReplacements.put("||", "Double_Pipe");
         specialCharReplacements.put("=", "Equal");
+        specialCharReplacements.put("==", "Double_Equal");
+        specialCharReplacements.put("===", "Triple_Equal");
         specialCharReplacements.put("*", "Star");
         specialCharReplacements.put("-", "Minus");
         specialCharReplacements.put("&", "Ampersand");
+        specialCharReplacements.put("&&", "Double_Ampersand");
         specialCharReplacements.put("%", "Percent");
         specialCharReplacements.put("#", "Hash");
         specialCharReplacements.put("@", "At");
